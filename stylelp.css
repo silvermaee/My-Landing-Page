@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color:rgb(181, 171, 171);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 2em;
+    color: beige;
+    user-select: none;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 1.2em;
+    color:antiquewhite;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 30px;
+
+}
+body {
+    background-image: url("ocean.jpg");
+    background-repeat: no-repeat;
+    padding-left: 100px ;
+    padding-top: ;
+    background-attachment: inherit;
+    background-size: 100%;
+}
+
+.navbar .btnlogin{
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    border: 20px;
+}
+
